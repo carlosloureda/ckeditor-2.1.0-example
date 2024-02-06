@@ -1,0 +1,24 @@
+.wrapper {
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+
+.button {
+  width: fit-content;
+  align-self: flex-end;
+}
+
+.editors-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  row-gap: 10px;
+  column-gap: 10px;
+  margin-top: 25px;
+}
+
+.editor-wrapper {
+  padding: 5px;
+  border: 2px solid white;
+}

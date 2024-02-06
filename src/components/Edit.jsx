@@ -1,4 +1,5 @@
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+import "./edit-styles.css";
 
 export const Edit = () => {
   const history = useHistory();
@@ -8,9 +9,11 @@ export const Edit = () => {
   };
 
   return (
-    <div>
+    <div className="wrapper">
       <h1>Edit Page</h1>
-      <button onClick={onGoToEditPage}>Go to View Page</button>
+      <button className="button" onClick={onGoToEditPage}>
+        Go to View Page
+      </button>
     </div>
   );
 };

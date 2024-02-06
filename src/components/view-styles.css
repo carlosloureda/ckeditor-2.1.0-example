@@ -1,6 +1,4 @@
 .wrapper {
-  border: 2px solid white;
-  display: flex;
   flex-direction: column;
   padding: 12px;
 }
